@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1025,2192</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>963,2293</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_Login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
@@ -71,7 +71,7 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Inicio de sesión" DisplayName="System1_Login" sap:VirtualizedContainerService.HintSize="839,2127" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Inicio de sesión" DisplayName="System1_Login" sap:VirtualizedContainerService.HintSize="839,2228" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="username" />
       <Variable x:TypeArguments="ss:SecureString" Name="password" />
@@ -206,6 +206,7 @@
         </Sequence>
       </If.Else>
     </If>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="797,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Login Inicio " />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="797,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[Now.ToString + &quot;  Termino System1_Login&quot;]" />
   </Sequence>
 </Activity>
